@@ -15,6 +15,7 @@
  * International Conference on Computers and Games. Springer International Publishing, 2016.
  */
 
+
 #include <iostream>
 #include <ostream>
 #include <algorithm>
