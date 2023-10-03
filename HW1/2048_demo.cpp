@@ -926,7 +926,7 @@ int main(int argc, const char* argv[]) {
 	float lambda = 0.5;
 
 	size_t total = 1000;
-	float random_num = 0.1;
+	float random_num = 0;
 	unsigned seed;
 	__asm__ __volatile__ ("rdtsc" : "=a" (seed));
 	info << "alpha = " << alpha << std::endl;
@@ -949,7 +949,7 @@ int main(int argc, const char* argv[]) {
 	tdl.add_feature(new pattern({ 4, 5, 6, 8, 9, 10 }));
 
 	// restore the model from file
-	tdl.load("/home/tzeshinchen/data/RF_learning/HW1/output/2048_lamba_to_0/800000_weight.bin");
+	tdl.load("./output/test1/340000weight.bin");
 
 	// train the model
 	std::vector<state> path;
