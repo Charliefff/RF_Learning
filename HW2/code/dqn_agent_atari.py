@@ -12,11 +12,11 @@ class AtariDQNAgent(DQNBaseAgent):
 		super(AtariDQNAgent, self).__init__(config)
 		### TODO ###
 		# initialize env
-		# self.env = ???
+		self.env = gym.make('MsPacman-v4')
 
 		### TODO ###
 		# initialize test_env
-		# self.test_env = ???
+		self.test_env = gym.make('MsPacman-v4')
 
 		# initialize behavior network and target network
 		self.behavior_net = AtariNetDQN(self.env.action_space.n)
@@ -38,6 +38,13 @@ class AtariDQNAgent(DQNBaseAgent):
 		# 	action = ???
 
 		# return action
+
+
+		# if random.random() < epsilon:
+		# 	pass
+
+		# else : 
+		# 	pass 
 
 		return NotImplementedError
 	
