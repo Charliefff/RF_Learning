@@ -938,3 +938,89 @@ average score: 1232.0
 [458328/100000000]  episode: 860  episode reward: 380.0  episode len: 459  epsilon: 0.6047659000130124
 [458768/100000000]  episode: 861  episode reward: 370.0  episode len: 441  epsilon: 0.6043690000130255
 [459268/100000000]  episode: 862  episode reward: 330.0  episode len: 501  epsilon: 0.6039181000130404
+[459796/100000000]  episode: 863  episode reward: 360.0  episode len: 529  epsilon: 0.603442000013056
+[460194/100000000]  episode: 864  episode reward: 300.0  episode len: 399  epsilon: 0.6030829000130679
+[460622/100000000]  episode: 865  episode reward: 310.0  episode len: 429  epsilon: 0.6026968000130806
+[461182/100000000]  episode: 866  episode reward: 360.0  episode len: 561  epsilon: 0.6021919000130972
+[461652/100000000]  episode: 867  episode reward: 300.0  episode len: 471  epsilon: 0.6017680000131111
+[462246/100000000]  episode: 868  episode reward: 770.0  episode len: 595  epsilon: 0.6012325000131288
+[462800/100000000]  episode: 869  episode reward: 450.0  episode len: 555  epsilon: 0.6007330000131452
+[463300/100000000]  episode: 870  episode reward: 420.0  episode len: 501  epsilon: 0.6002821000131601
+[463992/100000000]  episode: 871  episode reward: 650.0  episode len: 693  epsilon: 0.5996584000131806
+[464630/100000000]  episode: 872  episode reward: 1200.0  episode len: 639  epsilon: 0.5990833000131995
+[465016/100000000]  episode: 873  episode reward: 310.0  episode len: 387  epsilon: 0.598735000013211
+[465878/100000000]  episode: 874  episode reward: 1140.0  episode len: 863  epsilon: 0.5979583000132366
+[466348/100000000]  episode: 875  episode reward: 370.0  episode len: 471  epsilon: 0.5975344000132505
+[466660/100000000]  episode: 876  episode reward: 150.0  episode len: 313  epsilon: 0.5972527000132598
+[467156/100000000]  episode: 877  episode reward: 410.0  episode len: 497  epsilon: 0.5968054000132745
+[468048/100000000]  episode: 878  episode reward: 570.0  episode len: 893  epsilon: 0.596001700013301
+[468510/100000000]  episode: 879  episode reward: 340.0  episode len: 463  epsilon: 0.5955850000133147
+[469164/100000000]  episode: 880  episode reward: 900.0  episode len: 655  epsilon: 0.5949955000133341
+[469780/100000000]  episode: 881  episode reward: 470.0  episode len: 617  epsilon: 0.5944402000133524
+[470408/100000000]  episode: 882  episode reward: 450.0  episode len: 629  epsilon: 0.593874100013371
+[471186/100000000]  episode: 883  episode reward: 650.0  episode len: 779  epsilon: 0.5931730000133941
+[471538/100000000]  episode: 884  episode reward: 180.0  episode len: 353  epsilon: 0.5928553000134046
+[472052/100000000]  episode: 885  episode reward: 420.0  episode len: 515  epsilon: 0.5923918000134198
+[472520/100000000]  episode: 886  episode reward: 310.0  episode len: 469  epsilon: 0.5919697000134337
+[473218/100000000]  episode: 887  episode reward: 810.0  episode len: 699  epsilon: 0.5913406000134545
+[473594/100000000]  episode: 888  episode reward: 310.0  episode len: 377  epsilon: 0.5910013000134656
+[474070/100000000]  episode: 889  episode reward: 330.0  episode len: 477  epsilon: 0.5905720000134798
+[474588/100000000]  episode: 890  episode reward: 490.0  episode len: 519  epsilon: 0.5901049000134951
+[475068/100000000]  episode: 891  episode reward: 360.0  episode len: 481  epsilon: 0.5896720000135094
+[475572/100000000]  episode: 892  episode reward: 380.0  episode len: 505  epsilon: 0.5892175000135244
+[476012/100000000]  episode: 893  episode reward: 390.0  episode len: 441  epsilon: 0.5888206000135374
+[476484/100000000]  episode: 894  episode reward: 420.0  episode len: 473  epsilon: 0.5883949000135514
+[476946/100000000]  episode: 895  episode reward: 450.0  episode len: 463  epsilon: 0.5879782000135652
+[477606/100000000]  episode: 896  episode reward: 580.0  episode len: 661  epsilon: 0.5873833000135847
+[478536/100000000]  episode: 897  episode reward: 1020.0  episode len: 931  epsilon: 0.5865454000136123
+[479064/100000000]  episode: 898  episode reward: 280.0  episode len: 529  epsilon: 0.586069300013628
+[479582/100000000]  episode: 899  episode reward: 270.0  episode len: 519  epsilon: 0.5856022000136434
+[480044/100000000]  episode: 900  episode reward: 310.0  episode len: 463  epsilon: 0.5851855000136571
+==============================================
+Evaluating...
+episode 1 reward: 440.0
+episode 2 reward: 590.0
+episode 3 reward: 1180.0
+episode 4 reward: 330.0
+episode 5 reward: 370.0
+average score: 582.0
+==============================================
+[480494/100000000]  episode: 901  episode reward: 340.0  episode len: 451  epsilon: 0.5847796000136705
+[481078/100000000]  episode: 902  episode reward: 420.0  episode len: 585  epsilon: 0.5842531000136878
+[481818/100000000]  episode: 903  episode reward: 450.0  episode len: 741  epsilon: 0.5835862000137098
+[482322/100000000]  episode: 904  episode reward: 370.0  episode len: 505  epsilon: 0.5831317000137247
+[482716/100000000]  episode: 905  episode reward: 270.0  episode len: 395  epsilon: 0.5827762000137364
+[483130/100000000]  episode: 906  episode reward: 360.0  episode len: 415  epsilon: 0.5824027000137487
+[483772/100000000]  episode: 907  episode reward: 640.0  episode len: 643  epsilon: 0.5818240000137678
+[484432/100000000]  episode: 908  episode reward: 800.0  episode len: 661  epsilon: 0.5812291000137874
+[484902/100000000]  episode: 909  episode reward: 320.0  episode len: 471  epsilon: 0.5808052000138013
+[485428/100000000]  episode: 910  episode reward: 380.0  episode len: 527  epsilon: 0.5803309000138169
+[486130/100000000]  episode: 911  episode reward: 440.0  episode len: 703  epsilon: 0.5796982000138378
+[486628/100000000]  episode: 912  episode reward: 310.0  episode len: 499  epsilon: 0.5792491000138525
+[487056/100000000]  episode: 913  episode reward: 240.0  episode len: 429  epsilon: 0.5788630000138653
+[487664/100000000]  episode: 914  episode reward: 450.0  episode len: 609  epsilon: 0.5783149000138833
+[488304/100000000]  episode: 915  episode reward: 430.0  episode len: 641  epsilon: 0.5777380000139023
+[488782/100000000]  episode: 916  episode reward: 320.0  episode len: 479  epsilon: 0.5773069000139165
+[489328/100000000]  episode: 917  episode reward: 390.0  episode len: 547  epsilon: 0.5768146000139327
+[489734/100000000]  episode: 918  episode reward: 310.0  episode len: 407  epsilon: 0.5764483000139448
+[490250/100000000]  episode: 919  episode reward: 390.0  episode len: 517  epsilon: 0.5759830000139601
+[490808/100000000]  episode: 920  episode reward: 370.0  episode len: 559  epsilon: 0.5754799000139766
+[491178/100000000]  episode: 921  episode reward: 290.0  episode len: 371  epsilon: 0.5751460000139876
+[491666/100000000]  episode: 922  episode reward: 380.0  episode len: 489  epsilon: 0.5747059000140021
+[492104/100000000]  episode: 923  episode reward: 300.0  episode len: 439  epsilon: 0.5743108000140151
+[492664/100000000]  episode: 924  episode reward: 360.0  episode len: 561  epsilon: 0.5738059000140318
+[493114/100000000]  episode: 925  episode reward: 330.0  episode len: 451  epsilon: 0.5734000000140451
+[493518/100000000]  episode: 926  episode reward: 270.0  episode len: 405  epsilon: 0.5730355000140571
+[493940/100000000]  episode: 927  episode reward: 260.0  episode len: 423  epsilon: 0.5726548000140697
+[494474/100000000]  episode: 928  episode reward: 340.0  episode len: 535  epsilon: 0.5721733000140855
+[494948/100000000]  episode: 929  episode reward: 350.0  episode len: 475  epsilon: 0.5717458000140996
+[495724/100000000]  episode: 930  episode reward: 440.0  episode len: 777  epsilon: 0.5710465000141226
+[496108/100000000]  episode: 931  episode reward: 270.0  episode len: 385  epsilon: 0.570700000014134
+[496758/100000000]  episode: 932  episode reward: 450.0  episode len: 651  epsilon: 0.5701141000141533
+[497142/100000000]  episode: 933  episode reward: 260.0  episode len: 385  epsilon: 0.5697676000141647
+[497714/100000000]  episode: 934  episode reward: 1080.0  episode len: 573  epsilon: 0.5692519000141817
+[498228/100000000]  episode: 935  episode reward: 350.0  episode len: 515  epsilon: 0.568788400014197
+[498980/100000000]  episode: 936  episode reward: 540.0  episode len: 753  epsilon: 0.5681107000142193
+[499594/100000000]  episode: 937  episode reward: 350.0  episode len: 615  epsilon: 0.5675572000142375
+[500156/100000000]  episode: 938  episode reward: 430.0  episode len: 563  epsilon: 0.5670505000142542
+[500520/100000000]  episode: 939  episode reward: 350.0  episode len: 365  epsilon: 0.566722000014265
