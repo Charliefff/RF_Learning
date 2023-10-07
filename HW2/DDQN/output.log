@@ -1,0 +1,53 @@
+A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
+[Powered by Stella]
+/home/tzeshinchen/.local/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+[462/100000000]  episode: 1  episode reward: 220.0  episode len: 463  epsilon: 1.0
+[954/100000000]  episode: 2  episode reward: 260.0  episode len: 493  epsilon: 1.0
+[1354/100000000]  episode: 3  episode reward: 130.0  episode len: 401  epsilon: 1.0
+[1746/100000000]  episode: 4  episode reward: 170.0  episode len: 393  epsilon: 1.0
+[2158/100000000]  episode: 5  episode reward: 250.0  episode len: 413  epsilon: 1.0
+[2638/100000000]  episode: 6  episode reward: 220.0  episode len: 481  epsilon: 1.0
+[3268/100000000]  episode: 7  episode reward: 320.0  episode len: 631  epsilon: 1.0
+[3716/100000000]  episode: 8  episode reward: 280.0  episode len: 449  epsilon: 1.0
+[4120/100000000]  episode: 9  episode reward: 150.0  episode len: 405  epsilon: 1.0
+[4630/100000000]  episode: 10  episode reward: 200.0  episode len: 511  epsilon: 1.0
+[5062/100000000]  episode: 11  episode reward: 130.0  episode len: 433  epsilon: 1.0
+[5522/100000000]  episode: 12  episode reward: 250.0  episode len: 461  epsilon: 1.0
+[6066/100000000]  episode: 13  episode reward: 200.0  episode len: 545  epsilon: 1.0
+[6534/100000000]  episode: 14  episode reward: 240.0  episode len: 469  epsilon: 1.0
+[7060/100000000]  episode: 15  episode reward: 310.0  episode len: 527  epsilon: 1.0
+[7538/100000000]  episode: 16  episode reward: 270.0  episode len: 479  epsilon: 1.0
+[8166/100000000]  episode: 17  episode reward: 290.0  episode len: 629  epsilon: 1.0
+[8644/100000000]  episode: 18  episode reward: 240.0  episode len: 479  epsilon: 1.0
+[9196/100000000]  episode: 19  episode reward: 260.0  episode len: 553  epsilon: 1.0
+[9650/100000000]  episode: 20  episode reward: 290.0  episode len: 455  epsilon: 1.0
+[10246/100000000]  episode: 21  episode reward: 230.0  episode len: 597  epsilon: 1.0
+[10668/100000000]  episode: 22  episode reward: 190.0  episode len: 423  epsilon: 1.0
+[11222/100000000]  episode: 23  episode reward: 260.0  episode len: 555  epsilon: 1.0
+[11722/100000000]  episode: 24  episode reward: 340.0  episode len: 501  epsilon: 1.0
+[12262/100000000]  episode: 25  episode reward: 190.0  episode len: 541  epsilon: 1.0
+[12648/100000000]  episode: 26  episode reward: 190.0  episode len: 387  epsilon: 1.0
+[13216/100000000]  episode: 27  episode reward: 240.0  episode len: 569  epsilon: 1.0
+[13926/100000000]  episode: 28  episode reward: 620.0  episode len: 711  epsilon: 1.0
+[14366/100000000]  episode: 29  episode reward: 200.0  episode len: 441  epsilon: 1.0
+[15156/100000000]  episode: 30  episode reward: 440.0  episode len: 791  epsilon: 1.0
+[15794/100000000]  episode: 31  episode reward: 340.0  episode len: 639  epsilon: 1.0
+[16312/100000000]  episode: 32  episode reward: 270.0  episode len: 519  epsilon: 1.0
+[16902/100000000]  episode: 33  episode reward: 270.0  episode len: 591  epsilon: 1.0
+[17762/100000000]  episode: 34  episode reward: 1110.0  episode len: 861  epsilon: 1.0
+[18246/100000000]  episode: 35  episode reward: 290.0  episode len: 485  epsilon: 1.0
+[18780/100000000]  episode: 36  episode reward: 200.0  episode len: 535  epsilon: 1.0
+[19304/100000000]  episode: 37  episode reward: 280.0  episode len: 525  epsilon: 1.0
+[19888/100000000]  episode: 38  episode reward: 320.0  episode len: 585  epsilon: 1.0
+Traceback (most recent call last):
+  File "/home/tzeshinchen/data/RF_learning/HW2/DDQN/main.py", line 24, in <module>
+    agent.train()
+  File "/home/tzeshinchen/data/RF_learning/HW2/DDQN/base_agent.py", line 79, in train
+    self.update()
+  File "/home/tzeshinchen/data/RF_learning/HW2/DDQN/base_agent.py", line 42, in update
+    self.update_behavior_network()
+  File "/home/tzeshinchen/data/RF_learning/HW2/DDQN/ddqn_agent_atari.py", line 52, in update_behavior_network
+    q_next = self.target_net(next_state).gather(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Index tensor must have the same number of dimensions as input tensor
