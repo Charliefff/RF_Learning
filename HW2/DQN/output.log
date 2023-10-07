@@ -89,3 +89,5 @@ A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
 [42962/100000000]  episode: 85  episode reward: 230.0  episode len: 537  epsilon: 0.9792919000006818
 [43428/100000000]  episode: 86  episode reward: 230.0  episode len: 467  epsilon: 0.9788716000006956
 [43884/100000000]  episode: 87  episode reward: 140.0  episode len: 457  epsilon: 0.9784603000007092
+/home/tzeshinchen/.local/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:289: UserWarning: [33mWARN: No render fps was declared in the environment (env.metadata['render_fps'] is None or not defined), rendering may occur at inconsistent fps.[0m
+  logger.warn(
