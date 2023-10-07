@@ -47,8 +47,9 @@ class AtariDQNAgent(DQNBaseAgent):
 
         q_next = torch.zeros(self.batch_size, device=self.device)
         with torch.no_grad():
-            # behavior_net 決定動作 q_next_action來給value
+            # behavior_net 決定動作 target_net 來給value
             q_next_action = self.behavior_net(next_state).argmax(dim=1)
+            q_next_action = q_next_action.unsqueeze(1)
             q_next = self.target_net(next_state).gather(
                 1, q_next_action.to(torch.int64))
             q_target = reward + self.gamma * q_next * (1 - done)
