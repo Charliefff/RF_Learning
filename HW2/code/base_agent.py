@@ -131,7 +131,7 @@ class DQNBaseAgent(ABC):
 
 	# load model weights and evaluate
 	def load_and_evaluate(self, load_path):
-		self.load(load_path)
+		
 		self.evaluate()
 
 
