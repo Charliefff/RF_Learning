@@ -18,19 +18,42 @@ class AtariNet(nn.Module):
                                  )
         self.action_logits = nn.Sequential(nn.Linear(7*7*64, 512),
                                            nn.ReLU(True),
+                                           nn.Linear(512, 512),
+                                           nn.ReLU(True),
                                            nn.Linear(512, num_classes)
+
                                            )
-        
-        # 有更改value 網路
         self.value = nn.Sequential(nn.Linear(7*7*64, 512),
                                    nn.Tanh(),
-                                   nn.Linear(512, 256),
+                                   nn.Linear(512, 512),
                                    nn.Tanh(),
-                                   nn.Linear(256, 1)
+                                   nn.Linear(512, 1)
                                    )
 
         if init_weights:
             self._initialize_weights()
+
+    def forward(self, x, eval=False):
+        x = x.float() / 255.
+        x = self.cnn(x)
+        x = torch.flatten(x, start_dim=1)
+        value = self.value(x)
+        value = torch.squeeze(value)
+
+        logits = self.action_logits(x)
+
+        dist = Categorical(logits=logits)
+        if eval:
+            action = torch.argmax(logits, dim=-1)
+            logp = None
+
+        else:
+            action = dist.sample()
+            logp = dist.log_prob(action)
+
+        entropy = dist.entropy()
+
+        return action, value, logp, entropy
 
     def _initialize_weights(self):
         for m in self.modules():
@@ -40,22 +63,3 @@ class AtariNet(nn.Module):
             elif isinstance(m, nn.Linear):
                 nn.init.orthogonal_(m.weight, np.sqrt(2))
                 nn.init.constant_(m.bias, 0.0)
-
-    def forward(self, x, eval=False):
-        x = x.float() / 255.
-        x = self.cnn(x)
-        x = torch.flatten(x, start_dim=1)
-        # actor 網路
-        logits = self.action_logits(x)
-
-        # value 網路
-        value = self.value(x)
-        value = torch.squeeze(value)
-
-        dist = Categorical(logits=logits) #得到機率分布
-
-        ### TODO ###
-        # Finish the forward function
-        # Return action, action probability, value, entropy
-
-        return NotImplementedError

@@ -11,9 +11,12 @@ import random
 class AtariDQNAgent(DQNBaseAgent):
     def __init__(self, config):
         super(AtariDQNAgent, self).__init__(config)
-        self.env = gym.make('ALE/MsPacman-v5', render_mode="rgb_array")
-        self.test_env = gym.make('ALE/MsPacman-v5', render_mode="rgb_array")
-        # initialize behavior network and target network
+        self.env = gym.make("ALE/Breakout-v5", render_mode="rgb_array")
+
+        ### TODO ###
+        # initialize test_env
+        self.test_env = gym.make("ALE/Breakout-v5", render_mode="rgb_array")
+
         self.behavior_net = AtariNetDQN(self.env.action_space.n)
         self.behavior_net.to(self.device)
         self.target_net = AtariNetDQN(self.env.action_space.n)

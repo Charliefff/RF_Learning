@@ -1,4 +1,6 @@
 import numpy as np
+import torch
+
 
 class GaeSampleMemory(object):
     # one path for one agent
@@ -15,7 +17,7 @@ class GaeSampleMemory(object):
         def append(self, sample):
             if len(self.trajectories) == 0 or self.trajectories[-1].transitions["done"][-1]:
                 self.trajectories.append(GaeSampleMemory.Trajectory())
-            self.trajectories[-1].append(sample) 
+            self.trajectories[-1].append(sample)
 
         def get_keys(self):
             return self.trajectories[0].get_keys()
@@ -25,14 +27,25 @@ class GaeSampleMemory(object):
 
         def merge(self, key):
             results = [t.merge(key) for t in self.trajectories]
+
+            # adjust tensor to numpy
+            for i in range(len(results)):
+                for j in range(len(results[i])):
+                    # print(results[i][j])
+                    # results[i][j] = torch.tensor(results[i][j],device='cpu')
+                    if isinstance(results[i][j], torch.Tensor):
+                        results[i][j] = results[i][j].detach().cpu().numpy()
+
             return np.concatenate(results)
 
         def merge_observations(self, key):
-            results = np.concatenate([t.merge_observations(key) for t in self.trajectories])
+            results = np.concatenate([t.merge_observations(key)
+                                     for t in self.trajectories])
             return results
 
         def merge_next_observations(self, key):
-            results = np.concatenate([t.merge_next_observations(key) for t in self.trajectories])
+            results = np.concatenate(
+                [t.merge_next_observations(key) for t in self.trajectories])
             return results
 
         def clear(self):
@@ -58,7 +71,8 @@ class GaeSampleMemory(object):
                     for obs_key in sample[key]:
                         if obs_key not in self.transitions[key]:
                             self.transitions[key][obs_key] = []
-                        self.transitions[key][obs_key].append(sample[key][obs_key])
+                        self.transitions[key][obs_key].append(
+                            sample[key][obs_key])
                 else:
                     self.transitions[key].append(sample[key])
 
@@ -104,7 +118,7 @@ class GaeSampleMemory(object):
         self.paths[index].append(sample)
         self._sample_count += 1
 
-    def extract_batch(self, discount_gamma, discount_lambda, use_next_observation = False):
+    def extract_batch(self, discount_gamma, discount_lambda, use_next_observation=False):
         returns = []
         advs = []
 
@@ -123,13 +137,16 @@ class GaeSampleMemory(object):
             if key == "observation":
                 batchs[key] = {}
                 for obs_key in self.paths[0].get_observation_keys():
-                    batchs[key][obs_key] = np.concatenate([self.paths[i].merge_observations(obs_key) for i in range(self.config["agent_count"])])
+                    batchs[key][obs_key] = np.concatenate([self.paths[i].merge_observations(
+                        obs_key) for i in range(self.config["agent_count"])])
             else:
-                batchs[key] = np.concatenate([self.paths[i].merge(key) for i in range(self.config["agent_count"])])
+                batchs[key] = np.concatenate([self.paths[i].merge(
+                    key) for i in range(self.config["agent_count"])])
         if use_next_observation:
             batchs["next_observation"] = {}
             for obs_key in self.paths[0].get_observation_keys():
-                batchs["next_observation"][obs_key] = np.concatenate([self.paths[i].merge_next_observations(obs_key) for i in range(self.config["agent_count"])])
+                batchs["next_observation"][obs_key] = np.concatenate(
+                    [self.paths[i].merge_next_observations(obs_key) for i in range(self.config["agent_count"])])
 
         return batchs
 
@@ -146,10 +163,10 @@ class GaeSampleMemory(object):
                 values.append(values[-1])
             for start in range(0, sample_count, self.horizon):
                 _return, _adv = self._compute_gae(
-                    rewards=rewards[start:start + self.horizon], 
-                    values=values[start:start + self.horizon + 1], 
-                    dones=dones[start:start + self.horizon], 
-                    discount_gamma=discount_gamma, 
+                    rewards=rewards[start:start + self.horizon],
+                    values=values[start:start + self.horizon + 1],
+                    dones=dones[start:start + self.horizon],
+                    discount_gamma=discount_gamma,
                     discount_lambda=discount_lambda)
                 returns.append(_return)
                 advs.append(_adv)
@@ -161,7 +178,7 @@ class GaeSampleMemory(object):
         Args:
             rewards: A list of 1-d np.array, reward at every time step
             discount factor gamma will be automatically used
-        
+
         Return:
             q_path: Q-value
         """
@@ -196,9 +213,16 @@ class GaeSampleMemory(object):
             if dones[t]:
                 delta[t] = rewards[t] - values[t]
             else:
-                delta[t] = rewards[t] + discount_gamma * values[t + 1] - values[t]
-        adv = self._compute_discounted_return(delta, dones, discount_gamma, discount_lambda)
-        returns = np.asarray(adv) + np.asarray(values[:len(adv)])
+                delta[t] = rewards[t] + discount_gamma * \
+                    values[t + 1] - values[t]
+        adv = self._compute_discounted_return(
+            delta, dones, discount_gamma, discount_lambda)
+        # returns = np.asarray(adv) + np.asarray([v.detach().cpu().numpy() for v in values[:len(adv)]])
+        # returns = np.asarray(adv) + np.asarray(values[:len(adv)])
+
+        # adjust tensor to numpy
+        returns = np.asarray(
+            adv) + np.asarray([v.item() for v in values[:len(adv)]])
 
         if self.use_return_as_advantage:
             adv = returns

@@ -12,10 +12,12 @@ from abc import ABC, abstractmethod
 
 class PPOBaseAgent(ABC):
     def __init__(self, config):
+        self.env_id = config["env_id"]
         self.gpu = config["gpu"]
         self.device = torch.device(
             "cuda" if self.gpu and torch.cuda.is_available() else "cpu")
         self.total_time_step = 0
+        self.total_train_steps = int(config["training_steps"])
         self.training_steps = int(config["training_steps"])
         self.update_sample_count = int(config["update_sample_count"])
         self.discount_factor_gamma = config["discount_factor_gamma"]
@@ -24,7 +26,10 @@ class PPOBaseAgent(ABC):
         self.max_gradient_norm = config["max_gradient_norm"]
         self.batch_size = int(config["batch_size"])
         self.value_coefficient = config["value_coefficient"]
-        self.entropy_coefficient = config["entropy_coefficient"]
+        self.final_entropy_coefficient = config["final_entropy_coefficient"]
+        self.initial_entropy_coefficient = config["initial_entropy_coefficient"]
+
+        self.entropy_coefficient = self.initial_entropy_coefficient
         self.eval_interval = config["eval_interval"]
         self.eval_episode = config["eval_episode"]
 
@@ -41,8 +46,6 @@ class PPOBaseAgent(ABC):
         # add batch dimension in observation
         # get action, value, logp from net
 
-        # old 來交互 獲取參數以及memory 存入
-
         return NotImplementedError
 
     @abstractmethod
@@ -57,7 +60,6 @@ class PPOBaseAgent(ABC):
     def train(self):
         episode_idx = 0
         while self.total_time_step <= self.training_steps:
-            # 重玩
             observation, info = self.env.reset()
             episode_reward = 0
             episode_len = 0
@@ -68,6 +70,7 @@ class PPOBaseAgent(ABC):
                     action[0])
                 # observation must be dict before storing into gae_replay_buffer
                 # dimension of reward, value, logp_pi, done must be the same
+                # 存資料
                 obs = {}
                 obs["observation_2d"] = np.asarray(
                     observation, dtype=np.float32)
@@ -82,19 +85,20 @@ class PPOBaseAgent(ABC):
 
                 if len(self.gae_replay_buffer) >= self.update_sample_count:
                     self.update()
-                    # 刷新數據
-                    
                     self.gae_replay_buffer.clear_buffer()
 
                 episode_reward += reward
                 episode_len += 1
-
+                current_step_ratio = self.total_time_step / \
+                    (self.total_train_steps * 8e-1)
+                self.entropy_coefficient = self.initial_entropy_coefficient * (1 - current_step_ratio) + \
+                    self.final_entropy_coefficient * current_step_ratio
                 if terminate or truncate:
                     self.writer.add_scalar(
                         'Train/Episode Reward', episode_reward, self.total_time_step)
                     self.writer.add_scalar(
                         'Train/Episode Len', episode_len, self.total_time_step)
-                    print(f"[{len(self.gae_replay_buffer)}/{self.update_sample_count}][{self.total_time_step}/{self.training_steps}]  episode: {episode_idx}  episode reward: {episode_reward}  episode len: {episode_len}")
+                    print(f"[{len(self.gae_replay_buffer)}/{self.update_sample_count}][{self.total_time_step}/{self.training_steps}]  episode: {episode_idx}  episode reward: {episode_reward}  episode len: {episode_len}  entropy: {self.entropy_coefficient} ")
                     break
 
                 observation = next_observation
