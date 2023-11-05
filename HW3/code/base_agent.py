@@ -26,10 +26,7 @@ class PPOBaseAgent(ABC):
         self.max_gradient_norm = config["max_gradient_norm"]
         self.batch_size = int(config["batch_size"])
         self.value_coefficient = config["value_coefficient"]
-        self.final_entropy_coefficient = config["final_entropy_coefficient"]
-        self.initial_entropy_coefficient = config["initial_entropy_coefficient"]
-
-        self.entropy_coefficient = self.initial_entropy_coefficient
+        self.entropy_coefficient = config["entropy_coefficient"]
         self.eval_interval = config["eval_interval"]
         self.eval_episode = config["eval_episode"]
 
@@ -51,8 +48,6 @@ class PPOBaseAgent(ABC):
     @abstractmethod
     def update(self):
         # sample a minibatch of transitions
-        batches = self.gae_replay_buffer.extract_batch(
-            self.discount_factor_gamma, self.discount_factor_lambda)
         # calculate the loss and update the behavior network
 
         return NotImplementedError
@@ -89,16 +84,13 @@ class PPOBaseAgent(ABC):
 
                 episode_reward += reward
                 episode_len += 1
-                current_step_ratio = self.total_time_step / \
-                    (self.total_train_steps * 8e-1)
-                self.entropy_coefficient = self.initial_entropy_coefficient * (1 - current_step_ratio) + \
-                    self.final_entropy_coefficient * current_step_ratio
+
                 if terminate or truncate:
                     self.writer.add_scalar(
                         'Train/Episode Reward', episode_reward, self.total_time_step)
                     self.writer.add_scalar(
                         'Train/Episode Len', episode_len, self.total_time_step)
-                    print(f"[{len(self.gae_replay_buffer)}/{self.update_sample_count}][{self.total_time_step}/{self.training_steps}]  episode: {episode_idx}  episode reward: {episode_reward}  episode len: {episode_len}  entropy: {self.entropy_coefficient} ")
+                    print(f"[{len(self.gae_replay_buffer)}/{self.update_sample_count}][{self.total_time_step}/{self.training_steps}]  episode: {episode_idx}  episode reward: {episode_reward}  episode len: {episode_len} ")
                     break
 
                 observation = next_observation
@@ -117,13 +109,13 @@ class PPOBaseAgent(ABC):
         print("Evaluating...")
         all_rewards = []
         for i in range(self.eval_episode):
-            observation, info = self.test_env.reset()
+            observation, _ = self.test_env.reset()
             total_reward = 0
             while True:
                 self.test_env.render()
                 action, _, _ = self.decide_agent_actions(
                     observation, eval=True)
-                next_observation, reward, terminate, truncate, info = self.test_env.step(
+                next_observation, reward, terminate, truncate, _ = self.test_env.step(
                     action[0])
                 total_reward += reward
                 if terminate or truncate:
