@@ -52,9 +52,6 @@ class AtariNet(nn.Module):
         if eval:
             action = torch.argmax(logits, dim=1)
         else:
-            if new_action is None:
-                action = dist.sample()
-            else:
-                action = new_action
+            action = dist.sample()
 
         return action, value, dist.log_prob(action), dist.entropy()

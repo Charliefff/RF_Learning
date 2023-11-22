@@ -104,6 +104,8 @@ class AtariPPOAgent(PPOBaseAgent):
                 return_train_batch = return_train_batch.to(
                     self.device, dtype=torch.float32)
 
+
+
                 _, new_value, new_action_prob, entropy = self.net(
                     ob_train_batch, new_action=ac_train_batch)
 

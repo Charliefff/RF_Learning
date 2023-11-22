@@ -2,6 +2,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 
+
 class ActorNetSimple(nn.Module):
     def __init__(self, state_dim: int, action_dim: int, N_frame: int) -> None:
         super().__init__()
@@ -43,9 +44,10 @@ class ActorNetSimple(nn.Module):
         h_clone[:, 0] = (h_clone[:, 0])
         h_clone[:, 1] = (h_clone[:, 1]+1) * 0.5 + 0.1
         h_clone[:, 2] = (h_clone[:, 2]+1) * brake_rate
-        
+
         return h_clone
-    
+
+
 class CriticNetSimple(nn.Module):
     def __init__(self, state_dim: int, action_dim: int, N_frame: int) -> None:
         super().__init__()
