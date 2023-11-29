@@ -1,0 +1,15 @@
+2023-11-29 13:24:10.023922: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/data/tzeshinchen/RF_Learning/HW4/TD3/td3_agent_CarRacing.py:83: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1695392035891/work/torch/csrc/utils/tensor_new.cpp:261.)
+  noise = torch.tensor([self.noise.generate() for _ in range(
+Step: 1000	Episode: 1	Length: 999	Total reward: -39.30
+Traceback (most recent call last):
+  File "/data/tzeshinchen/RF_Learning/HW4/TD3/main.py", line 22, in <module>
+    agent.train()
+  File "/data/tzeshinchen/RF_Learning/HW4/TD3/base_agent.py", line 112, in train
+    self.update()
+  File "/data/tzeshinchen/RF_Learning/HW4/TD3/base_agent.py", line 72, in update
+    self.update_behavior_network()
+  File "/data/tzeshinchen/RF_Learning/HW4/TD3/td3_agent_CarRacing.py", line 88, in update_behavior_network
+    next_action += noise
+TypeError: Concatenation operation is not implemented for NumPy arrays, use np.concatenate() instead. Please do not rely on this error; it may not be given on all Python implementations.
