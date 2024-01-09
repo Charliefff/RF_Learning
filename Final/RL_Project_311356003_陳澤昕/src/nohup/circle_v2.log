@@ -1,0 +1,740 @@
+pybullet build time: Dec 20 2023 19:59:22
+Step: 278	Episode: 1	Length: 277	Total reward: 19.25	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.31	Movement: 0.24
+Step: 1528	Episode: 2	Length: 1249	Total reward: 47.63	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 60.43
+average score: 60.433327806566275
+==============================================
+Step: 2778	Episode: 3	Length: 1249	Total reward: 46.63	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.36	Movement: 0.30
+Step: 4028	Episode: 4	Length: 1249	Total reward: 46.94	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 46.74
+average score: 46.73820212664136
+==============================================
+Step: 4794	Episode: 5	Length: 765	Total reward: 23.71	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.73	Movement: 0.67
+Step: 6044	Episode: 6	Length: 1249	Total reward: 44.92	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.34
+==============================================
+Evaluating...
+Episode: 1	Length: 952	Total reward: 34.76
+average score: 34.761133687771135
+==============================================
+Step: 7294	Episode: 7	Length: 1249	Total reward: 44.93	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.40	Movement: 0.34
+Step: 8544	Episode: 8	Length: 1249	Total reward: 45.44	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.41	Movement: 0.35
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.94
+average score: 45.94454183907134
+==============================================
+Step: 9794	Episode: 9	Length: 1249	Total reward: 44.85	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+Step: 11044	Episode: 10	Length: 1249	Total reward: 44.80	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.77
+average score: 45.76904224709496
+==============================================
+Step: 12294	Episode: 11	Length: 1249	Total reward: 44.61	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+Step: 13544	Episode: 12	Length: 1249	Total reward: 44.55	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.38	Movement: 0.32
+==============================================
+Evaluating...
+Episode: 1	Length: 1165	Total reward: 39.59
+average score: 39.58664415771136
+==============================================
+Step: 14794	Episode: 13	Length: 1249	Total reward: 44.45	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.37	Movement: 0.31
+Step: 15257	Episode: 14	Length: 462	Total reward: 11.32	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.51
+average score: 45.51401823715445
+==============================================
+Step: 16507	Episode: 15	Length: 1249	Total reward: 44.87	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+Step: 17757	Episode: 16	Length: 1249	Total reward: 44.52	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.38	Movement: 0.32
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 44.94
+average score: 44.93688236199853
+==============================================
+Step: 19007	Episode: 17	Length: 1249	Total reward: 44.66	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.38	Movement: 0.33
+Step: 20257	Episode: 18	Length: 1249	Total reward: 44.65	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.38	Movement: 0.32
+==============================================
+Evaluating...
+Episode: 1	Length: 285	Total reward: 9.02
+average score: 9.015299719836245
+==============================================
+Step: 21507	Episode: 19	Length: 1249	Total reward: 44.37	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.38	Movement: 0.32
+Step: 22714	Episode: 20	Length: 1206	Total reward: 40.10	Num of Collision: 1	Lap: 2	Start progress: 0.06	End progress: 0.23	Movement: 0.17
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.15
+average score: 45.15195984949605
+==============================================
+Step: 23964	Episode: 21	Length: 1249	Total reward: 44.75	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.34
+Step: 25214	Episode: 22	Length: 1249	Total reward: 44.61	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.46
+average score: 45.464753089920684
+==============================================
+Step: 26464	Episode: 23	Length: 1249	Total reward: 44.39	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.38	Movement: 0.32
+Step: 27714	Episode: 24	Length: 1249	Total reward: 44.87	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.40	Movement: 0.34
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 44.38
+average score: 44.37596985038273
+==============================================
+Step: 28964	Episode: 25	Length: 1249	Total reward: 44.40	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+Step: 30214	Episode: 26	Length: 1249	Total reward: 44.65	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.34
+==============================================
+Evaluating...
+Episode: 1	Length: 337	Total reward: 10.48
+average score: 10.475122951482904
+==============================================
+Step: 31464	Episode: 27	Length: 1249	Total reward: 44.55	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+Step: 32714	Episode: 28	Length: 1249	Total reward: 44.34	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.37	Movement: 0.31
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.28
+average score: 45.28239675246748
+==============================================
+Step: 33964	Episode: 29	Length: 1249	Total reward: 44.53	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+Step: 34630	Episode: 30	Length: 665	Total reward: 21.51	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.68	Movement: 0.62
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.14
+average score: 45.138424922622086
+==============================================
+Step: 35880	Episode: 31	Length: 1249	Total reward: 44.58	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.40	Movement: 0.34
+Step: 36836	Episode: 32	Length: 955	Total reward: 21.11	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.65	Movement: 0.59
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.05
+average score: 45.045346854314886
+==============================================
+Step: 37461	Episode: 33	Length: 624	Total reward: 19.43	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.63	Movement: 0.58
+Step: 38711	Episode: 34	Length: 1249	Total reward: 44.79	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.41	Movement: 0.36
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.41
+average score: 45.411348917147656
+==============================================
+Step: 39961	Episode: 35	Length: 1249	Total reward: 45.07	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.43	Movement: 0.37
+Step: 41211	Episode: 36	Length: 1249	Total reward: 44.30	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.42	Movement: 0.36
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 29.43
+average score: 29.42529553072102
+==============================================
+Step: 41457	Episode: 37	Length: 245	Total reward: 3.29	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.15	Movement: 0.09
+Step: 41751	Episode: 38	Length: 293	Total reward: 9.12	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.33	Movement: 0.27
+==============================================
+Evaluating...
+Episode: 1	Length: 307	Total reward: 10.04
+average score: 10.043520262253438
+==============================================
+Step: 41957	Episode: 39	Length: 205	Total reward: 5.95	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.23	Movement: 0.17
+Step: 42999	Episode: 40	Length: 1041	Total reward: 36.79	Num of Collision: 1	Lap: 2	Start progress: 0.06	End progress: 0.20	Movement: 0.14
+==============================================
+Evaluating...
+Episode: 1	Length: 175	Total reward: 5.06
+average score: 5.0604629759577495
+==============================================
+Step: 43276	Episode: 41	Length: 276	Total reward: 8.82	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.33	Movement: 0.27
+Step: 43568	Episode: 42	Length: 291	Total reward: 9.07	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.33	Movement: 0.27
+==============================================
+Evaluating...
+Episode: 1	Length: 236	Total reward: 7.40
+average score: 7.398254452043038
+==============================================
+Step: 43719	Episode: 43	Length: 150	Total reward: 4.11	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.18	Movement: 0.12
+Step: 44096	Episode: 44	Length: 376	Total reward: 12.03	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.42	Movement: 0.36
+==============================================
+Evaluating...
+Episode: 1	Length: 167	Total reward: 4.86
+average score: 4.857966091262522
+==============================================
+Step: 45212	Episode: 45	Length: 1115	Total reward: 39.47	Num of Collision: 1	Lap: 2	Start progress: 0.06	End progress: 0.29	Movement: 0.23
+Step: 45453	Episode: 46	Length: 240	Total reward: 7.37	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.28	Movement: 0.22
+==============================================
+Evaluating...
+Episode: 1	Length: 167	Total reward: 4.98
+average score: 4.975464652634039
+==============================================
+Step: 45673	Episode: 47	Length: 219	Total reward: 6.14	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.23	Movement: 0.18
+Step: 45897	Episode: 48	Length: 223	Total reward: 6.53	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.25	Movement: 0.19
+==============================================
+Evaluating...
+Episode: 1	Length: 213	Total reward: 6.63
+average score: 6.625183857221634
+==============================================
+Step: 46756	Episode: 49	Length: 858	Total reward: 29.99	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.97	Movement: 0.91
+Step: 47746	Episode: 50	Length: 989	Total reward: 29.45	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.96	Movement: 0.90
+==============================================
+Evaluating...
+Episode: 1	Length: 285	Total reward: 9.37
+average score: 9.372112961919587
+==============================================
+Step: 48992	Episode: 51	Length: 1245	Total reward: 44.16	Num of Collision: 1	Lap: 2	Start progress: 0.06	End progress: 0.42	Movement: 0.36
+Step: 50242	Episode: 52	Length: 1249	Total reward: 44.06	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.41	Movement: 0.35
+==============================================
+Evaluating...
+Episode: 1	Length: 154	Total reward: 4.27
+average score: 4.271093194742545
+==============================================
+Step: 51492	Episode: 53	Length: 1249	Total reward: 43.54	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.40	Movement: 0.34
+Step: 52465	Episode: 54	Length: 972	Total reward: 34.18	Num of Collision: 1	Lap: 2	Start progress: 0.06	End progress: 0.11	Movement: 0.05
+==============================================
+Evaluating...
+Episode: 1	Length: 215	Total reward: 5.35
+average score: 5.351923084045051
+==============================================
+Step: 53715	Episode: 55	Length: 1249	Total reward: 35.47	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.02	Movement: 0.96
+Step: 54944	Episode: 56	Length: 1228	Total reward: 44.45	Num of Collision: 1	Lap: 2	Start progress: 0.06	End progress: 0.42	Movement: 0.36
+==============================================
+Evaluating...
+Episode: 1	Length: 304	Total reward: 10.07
+average score: 10.065137420032999
+==============================================
+Step: 55161	Episode: 57	Length: 216	Total reward: 6.41	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.24	Movement: 0.18
+Step: 55482	Episode: 58	Length: 320	Total reward: 10.26	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.37	Movement: 0.31
+==============================================
+Evaluating...
+Episode: 1	Length: 220	Total reward: 7.01
+average score: 7.006378799178582
+==============================================
+Step: 56698	Episode: 59	Length: 1215	Total reward: 43.11	Num of Collision: 1	Lap: 2	Start progress: 0.06	End progress: 0.37	Movement: 0.31
+Step: 57948	Episode: 60	Length: 1249	Total reward: 9.57	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.34	Movement: 0.29
+==============================================
+Evaluating...
+Episode: 1	Length: 254	Total reward: 8.17
+average score: 8.173706962409957
+==============================================
+Step: 58350	Episode: 61	Length: 401	Total reward: 13.16	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.44	Movement: 0.38
+Step: 58768	Episode: 62	Length: 417	Total reward: 14.08	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.48	Movement: 0.42
+==============================================
+Evaluating...
+Episode: 1	Length: 245	Total reward: 7.68
+average score: 7.683000626843274
+==============================================
+Step: 59177	Episode: 63	Length: 408	Total reward: 13.60	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.46	Movement: 0.40
+Step: 60427	Episode: 64	Length: 1249	Total reward: 44.86	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.42	Movement: 0.36
+==============================================
+Evaluating...
+Episode: 1	Length: 994	Total reward: 36.64
+average score: 36.64353255708535
+==============================================
+Step: 60742	Episode: 65	Length: 314	Total reward: 10.22	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.37	Movement: 0.31
+Step: 61076	Episode: 66	Length: 333	Total reward: 10.77	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+==============================================
+Evaluating...
+Episode: 1	Length: 908	Total reward: 33.73
+average score: 33.73174905724153
+==============================================
+Step: 61400	Episode: 67	Length: 323	Total reward: 10.54	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.38	Movement: 0.33
+Step: 61706	Episode: 68	Length: 305	Total reward: 9.90	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.36	Movement: 0.30
+==============================================
+Evaluating...
+Episode: 1	Length: 1041	Total reward: 37.40
+average score: 37.40226436019795
+==============================================
+Step: 62063	Episode: 69	Length: 356	Total reward: 11.54	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.41	Movement: 0.35
+Step: 62497	Episode: 70	Length: 433	Total reward: 10.49	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.36	Movement: 0.30
+==============================================
+Evaluating...
+Episode: 1	Length: 200	Total reward: 6.01
+average score: 6.010722073957228
+==============================================
+Step: 63343	Episode: 71	Length: 845	Total reward: 28.30	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.91	Movement: 0.85
+Step: 64593	Episode: 72	Length: 1249	Total reward: 45.65	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.46	Movement: 0.40
+==============================================
+Evaluating...
+Episode: 1	Length: 1051	Total reward: 38.28
+average score: 38.28146649145918
+==============================================
+Step: 64883	Episode: 73	Length: 289	Total reward: 8.91	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.33	Movement: 0.27
+Step: 65179	Episode: 74	Length: 295	Total reward: 8.95	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.33	Movement: 0.27
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 46.78
+average score: 46.77951157892933
+==============================================
+Step: 66429	Episode: 75	Length: 1249	Total reward: 44.93	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.42	Movement: 0.37
+Step: 67615	Episode: 76	Length: 1185	Total reward: 43.25	Num of Collision: 1	Lap: 2	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 46.81
+average score: 46.812600280236644
+==============================================
+Step: 68865	Episode: 77	Length: 1249	Total reward: 29.28	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.95	Movement: 0.89
+Step: 70115	Episode: 78	Length: 1249	Total reward: 31.50	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.03	Movement: 0.97
+==============================================
+Evaluating...
+Episode: 1	Length: 142	Total reward: 0.88
+average score: 0.878182791974493
+==============================================
+Step: 71365	Episode: 79	Length: 1249	Total reward: 42.40	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+Step: 72615	Episode: 80	Length: 1249	Total reward: 45.27	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.46	Movement: 0.41
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 47.63
+average score: 47.6333031315698
+==============================================
+Step: 73865	Episode: 81	Length: 1249	Total reward: 45.20	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.47	Movement: 0.41
+Step: 75115	Episode: 82	Length: 1249	Total reward: 44.44	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.45	Movement: 0.40
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 46.44
+average score: 46.43932082859137
+==============================================
+Step: 76317	Episode: 83	Length: 1201	Total reward: 43.25	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.43	Movement: 0.38
+Step: 76623	Episode: 84	Length: 305	Total reward: 9.88	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.37	Movement: 0.32
+==============================================
+Evaluating...
+Episode: 1	Length: 154	Total reward: 4.50
+average score: 4.504942229431412
+==============================================
+Step: 76844	Episode: 85	Length: 220	Total reward: 6.47	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.25	Movement: 0.20
+Step: 77113	Episode: 86	Length: 268	Total reward: 8.46	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.32	Movement: 0.26
+==============================================
+Evaluating...
+Episode: 1	Length: 338	Total reward: 11.50
+average score: 11.504596045149558
+==============================================
+Step: 77452	Episode: 87	Length: 338	Total reward: 11.00	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.40	Movement: 0.35
+Step: 77769	Episode: 88	Length: 316	Total reward: 10.19	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.38	Movement: 0.32
+==============================================
+Evaluating...
+Episode: 1	Length: 316	Total reward: 10.72
+average score: 10.718352035872718
+==============================================
+Step: 78121	Episode: 89	Length: 351	Total reward: 11.21	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.41	Movement: 0.35
+Step: 78437	Episode: 90	Length: 315	Total reward: 10.03	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.38	Movement: 0.32
+==============================================
+Evaluating...
+Episode: 1	Length: 284	Total reward: 9.61
+average score: 9.609634805725973
+==============================================
+Step: 78823	Episode: 91	Length: 385	Total reward: 12.62	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.45	Movement: 0.39
+Step: 79256	Episode: 92	Length: 432	Total reward: 14.20	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.50	Movement: 0.44
+==============================================
+Evaluating...
+Episode: 1	Length: 313	Total reward: 10.57
+average score: 10.572690653985974
+==============================================
+Step: 79558	Episode: 93	Length: 301	Total reward: 9.71	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.37	Movement: 0.31
+Step: 79845	Episode: 94	Length: 286	Total reward: 9.14	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.34	Movement: 0.29
+==============================================
+Evaluating...
+Episode: 1	Length:  99	Total reward: 2.45
+average score: 2.4479250599867113
+==============================================
+Step: 80178	Episode: 95	Length: 332	Total reward: 3.98	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.20	Movement: 0.14
+Step: 80326	Episode: 96	Length: 147	Total reward: 3.59	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.17	Movement: 0.11
+==============================================
+Evaluating...
+Episode: 1	Length: 335	Total reward: 11.26
+average score: 11.26124659703031
+==============================================
+Step: 80693	Episode: 97	Length: 366	Total reward: 11.91	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.43	Movement: 0.37
+Step: 81102	Episode: 98	Length: 408	Total reward: 13.69	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.48	Movement: 0.42
+==============================================
+Evaluating...
+Episode: 1	Length: 1162	Total reward: 42.63
+average score: 42.631839485742745
+==============================================
+Step: 82352	Episode: 99	Length: 1249	Total reward: 44.33	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.44	Movement: 0.38
+Step: 83602	Episode: 100	Length: 1249	Total reward: 44.92	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.44	Movement: 0.38
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 46.56
+average score: 46.558842846418955
+==============================================
+Step: 84852	Episode: 101	Length: 1249	Total reward: 44.88	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.45	Movement: 0.39
+Step: 86102	Episode: 102	Length: 1249	Total reward: 44.60	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.45	Movement: 0.40
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 46.29
+average score: 46.28819784766142
+==============================================
+Step: 87352	Episode: 103	Length: 1249	Total reward: 43.60	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.44	Movement: 0.38
+Step: 88224	Episode: 104	Length: 871	Total reward: 29.59	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.02	Movement: 0.97
+==============================================
+Evaluating...
+Episode: 1	Length: 1229	Total reward: 45.21
+average score: 45.207066296712185
+==============================================
+Step: 89474	Episode: 105	Length: 1249	Total reward: 45.17	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.50	Movement: 0.44
+Step: 90724	Episode: 106	Length: 1249	Total reward: 45.01	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.48	Movement: 0.42
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 46.48
+average score: 46.47517018002274
+==============================================
+Step: 91464	Episode: 107	Length: 739	Total reward: 22.66	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.76	Movement: 0.70
+Step: 92714	Episode: 108	Length: 1249	Total reward: 41.53	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.38	Movement: 0.32
+==============================================
+Evaluating...
+Episode: 1	Length: 402	Total reward: 12.90
+average score: 12.901362466854632
+==============================================
+Step: 93964	Episode: 109	Length: 1249	Total reward: 45.32	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.50	Movement: 0.44
+Step: 95214	Episode: 110	Length: 1249	Total reward: 44.75	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.48	Movement: 0.43
+==============================================
+Evaluating...
+Episode: 1	Length: 638	Total reward: 22.83
+average score: 22.832230857198933
+==============================================
+Step: 95836	Episode: 111	Length: 621	Total reward: 21.33	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.74	Movement: 0.68
+Step: 95943	Episode: 112	Length: 106	Total reward: 2.45	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.14	Movement: 0.08
+==============================================
+Evaluating...
+Episode: 1	Length:  82	Total reward: 1.75
+average score: 1.7535079718151603
+==============================================
+Step: 96030	Episode: 113	Length:  86	Total reward: 1.86	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.12	Movement: 0.06
+Step: 96122	Episode: 114	Length:  91	Total reward: 1.92	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.12	Movement: 0.06
+==============================================
+Evaluating...
+Episode: 1	Length:  68	Total reward: 1.46
+average score: 1.4554259158177336
+==============================================
+Step: 96199	Episode: 115	Length:  76	Total reward: 1.52	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.10	Movement: 0.05
+Step: 96282	Episode: 116	Length:  82	Total reward: 1.70	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.11	Movement: 0.05
+==============================================
+Evaluating...
+Episode: 1	Length: 651	Total reward: 13.32
+average score: 13.316989939896882
+==============================================
+Step: 96756	Episode: 117	Length: 473	Total reward: 14.01	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.49	Movement: 0.43
+Step: 98006	Episode: 118	Length: 1249	Total reward: 44.59	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.47	Movement: 0.41
+==============================================
+Evaluating...
+Episode: 1	Length: 660	Total reward: 23.19
+average score: 23.185360781411543
+==============================================
+Step: 99256	Episode: 119	Length: 1249	Total reward: 44.48	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.46	Movement: 0.41
+Step: 100506	Episode: 120	Length: 1249	Total reward: 44.32	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.46	Movement: 0.40
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.54
+average score: 45.544762210265375
+==============================================
+Step: 101756	Episode: 121	Length: 1249	Total reward: 43.91	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.44	Movement: 0.38
+Step: 103006	Episode: 122	Length: 1249	Total reward: 43.69	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.43	Movement: 0.37
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 45.16
+average score: 45.16204867896927
+==============================================
+Step: 104256	Episode: 123	Length: 1249	Total reward: 42.89	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.41	Movement: 0.35
+Step: 105506	Episode: 124	Length: 1249	Total reward: 19.55	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.66	Movement: 0.60
+==============================================
+Evaluating...
+Episode: 1	Length: 598	Total reward: 18.41
+average score: 18.40564111283196
+==============================================
+Step: 106756	Episode: 125	Length: 1249	Total reward: 41.90	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.35	Movement: 0.29
+Step: 108006	Episode: 126	Length: 1249	Total reward: 41.10	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.32	Movement: 0.26
+==============================================
+Evaluating...
+Episode: 1	Length: 1023	Total reward: 33.76
+average score: 33.760912809979246
+==============================================
+Step: 109256	Episode: 127	Length: 1249	Total reward: 37.36	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.20	Movement: 0.14
+Step: 110506	Episode: 128	Length: 1249	Total reward: 4.85	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.21	Movement: 0.15
+==============================================
+Evaluating...
+Episode: 1	Length: 701	Total reward: 22.74
+average score: 22.739266365223195
+==============================================
+Step: 111461	Episode: 129	Length: 954	Total reward: 31.57	Num of Collision: 1	Lap: 2	Start progress: 0.06	End progress: 0.03	Movement: 0.97
+Step: 112711	Episode: 130	Length: 1249	Total reward: 41.44	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.32	Movement: 0.26
+==============================================
+Evaluating...
+Episode: 1	Length: 869	Total reward: 29.41
+average score: 29.40969538343052
+==============================================
+Step: 113961	Episode: 131	Length: 1249	Total reward: 32.51	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.06	Movement: 0.01
+Step: 115211	Episode: 132	Length: 1249	Total reward: 39.07	Num of Collision: 0	Lap: 2	Start progress: 0.06	End progress: 0.26	Movement: 0.20
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 6.70
+average score: 6.701892184334143
+==============================================
+Step: 116461	Episode: 133	Length: 1249	Total reward: 6.71	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.26	Movement: 0.20
+Step: 117711	Episode: 134	Length: 1249	Total reward: 4.05	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.18	Movement: 0.13
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.00
+average score: 0.000578258287551998
+==============================================
+Step: 118961	Episode: 135	Length: 1249	Total reward: 0.15	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.05	Movement: 1.00
+Step: 120211	Episode: 136	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.08
+average score: 0.08340363026206306
+==============================================
+Step: 121461	Episode: 137	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+Step: 122711	Episode: 138	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 1.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.09
+average score: 0.0930143635965678
+==============================================
+Step: 123961	Episode: 139	Length: 1249	Total reward: 0.04	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 1.00
+Step: 125211	Episode: 140	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.02
+average score: 0.021746216297034795
+==============================================
+Step: 126461	Episode: 141	Length: 1249	Total reward: 0.11	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 1.00
+Step: 127711	Episode: 142	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 1.00
+==============================================
+Evaluating...
+Episode: 1	Length:  87	Total reward: 0.17
+average score: 0.17183485594829703
+==============================================
+Step: 128961	Episode: 143	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 1.00
+Step: 130211	Episode: 144	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length:  43	Total reward: 0.07
+average score: 0.07476704468203707
+==============================================
+Step: 131461	Episode: 145	Length: 1249	Total reward: 0.01	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 1.00
+Step: 132711	Episode: 146	Length: 1249	Total reward: 0.01	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 1.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.09
+average score: 0.0906264792509263
+==============================================
+Step: 133961	Episode: 147	Length: 1249	Total reward: 0.01	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+Step: 135211	Episode: 148	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.11
+average score: 0.1064187487375038
+==============================================
+Step: 136461	Episode: 149	Length: 1249	Total reward: 0.01	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+Step: 137711	Episode: 150	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.18
+average score: 0.17865970992773145
+==============================================
+Step: 137725	Episode: 151	Length:  13	Total reward: 0.01	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 1.00
+Step: 138975	Episode: 152	Length: 1249	Total reward: 0.01	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.01
+average score: 0.010227902658518633
+==============================================
+Step: 140225	Episode: 153	Length: 1249	Total reward: 0.12	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+Step: 141475	Episode: 154	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.09
+average score: 0.09024555163252072
+==============================================
+Step: 142725	Episode: 155	Length: 1249	Total reward: 0.25	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.07	Movement: 0.02
+Step: 143975	Episode: 156	Length: 1249	Total reward: 0.09	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.00
+average score: 0.0008502542398544067
+==============================================
+Step: 145225	Episode: 157	Length: 1249	Total reward: 0.33	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+Step: 146475	Episode: 158	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.06
+average score: 0.062035391086622906
+==============================================
+Step: 146569	Episode: 159	Length:  93	Total reward: 1.07	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.10	Movement: 0.04
+Step: 147819	Episode: 160	Length: 1249	Total reward: 0.02	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.64
+average score: 0.6434663094642075
+==============================================
+Step: 149069	Episode: 161	Length: 1249	Total reward: 0.76	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.08	Movement: 0.02
+Step: 150319	Episode: 162	Length: 1249	Total reward: 0.01	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.26
+average score: 0.25782558836689085
+==============================================
+Step: 151569	Episode: 163	Length: 1249	Total reward: 0.13	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+Step: 152819	Episode: 164	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.40
+average score: 0.3955543327439595
+==============================================
+Step: 152852	Episode: 165	Length:  32	Total reward: 0.09	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 1.00
+Step: 152959	Episode: 166	Length: 106	Total reward: 1.49	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.10	Movement: 0.04
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.00
+average score: 0.004262089532004237
+==============================================
+Step: 154209	Episode: 167	Length: 1249	Total reward: 0.39	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 0.00
+Step: 155459	Episode: 168	Length: 1249	Total reward: 0.00	Num of Collision: 0	Lap: 1	Start progress: 0.06	End progress: 0.06	Movement: 1.00
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 0.29
+average score: 0.2920859542059045
+==============================================
+Step: 155792	Episode: 169	Length: 332	Total reward: 9.14	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.32	Movement: 0.27
+Step: 155969	Episode: 170	Length: 176	Total reward: 4.87	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.20	Movement: 0.14
+==============================================
+Evaluating...
+Episode: 1	Length: 138	Total reward: 3.66
+average score: 3.6632949267052513
+==============================================
+Step: 156087	Episode: 171	Length: 117	Total reward: 2.77	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.15	Movement: 0.09
+Step: 156180	Episode: 172	Length:  92	Total reward: 2.00	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.12	Movement: 0.06
+==============================================
+Evaluating...
+Episode: 1	Length: 192	Total reward: 5.68
+average score: 5.678536991448354
+==============================================
+Step: 156312	Episode: 173	Length: 131	Total reward: 3.04	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.15	Movement: 0.09
+Step: 156432	Episode: 174	Length: 119	Total reward: 2.88	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.15	Movement: 0.09
+==============================================
+Evaluating...
+Episode: 1	Length: 1249	Total reward: 2.88
+average score: 2.8785806583954043
+==============================================
+Step: 156523	Episode: 175	Length:  90	Total reward: 1.86	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.12	Movement: 0.06
+Step: 156696	Episode: 176	Length: 172	Total reward: 4.75	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.20	Movement: 0.14
+==============================================
+Evaluating...
+Episode: 1	Length: 110	Total reward: 2.74
+average score: 2.741574211477122
+==============================================
+Step: 156780	Episode: 177	Length:  83	Total reward: 1.67	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.11	Movement: 0.05
+Step: 156909	Episode: 178	Length: 128	Total reward: 3.13	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.16	Movement: 0.10
+==============================================
+Evaluating...
+Episode: 1	Length: 107	Total reward: 2.64
+average score: 2.6423547551462034
+==============================================
+Step: 157029	Episode: 179	Length: 119	Total reward: 2.84	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.15	Movement: 0.09
+Step: 157160	Episode: 180	Length: 130	Total reward: 3.14	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.16	Movement: 0.10
+==============================================
+Evaluating...
+Episode: 1	Length: 124	Total reward: 3.02
+average score: 3.022366114835828
+==============================================
+Step: 157246	Episode: 181	Length:  85	Total reward: 1.70	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.11	Movement: 0.05
+Step: 157367	Episode: 182	Length: 120	Total reward: 2.96	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.15	Movement: 0.09
+==============================================
+Evaluating...
+Episode: 1	Length: 234	Total reward: 3.62
+average score: 3.621314096440364
+==============================================
+Step: 157498	Episode: 183	Length: 130	Total reward: 3.26	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.16	Movement: 0.10
+Step: 157635	Episode: 184	Length: 136	Total reward: 3.46	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.17	Movement: 0.11
+==============================================
+Evaluating...
+Episode: 1	Length: 163	Total reward: 4.75
+average score: 4.752068016599681
+==============================================
+Step: 157803	Episode: 185	Length: 167	Total reward: 4.32	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.19	Movement: 0.13
+Step: 157912	Episode: 186	Length: 108	Total reward: 2.61	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.14	Movement: 0.08
+==============================================
+Evaluating...
+Episode: 1	Length: 140	Total reward: 3.89
+average score: 3.88900944687455
+==============================================
+Step: 158103	Episode: 187	Length: 190	Total reward: 5.35	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.21	Movement: 0.16
+Step: 158259	Episode: 188	Length: 155	Total reward: 4.12	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.18	Movement: 0.12
+==============================================
+Evaluating...
+Episode: 1	Length: 212	Total reward: 6.56
+average score: 6.558143340409638
+==============================================
+Step: 158577	Episode: 189	Length: 317	Total reward: 10.28	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.39	Movement: 0.33
+Step: 158826	Episode: 190	Length: 248	Total reward: 7.49	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.29	Movement: 0.23
+==============================================
+Evaluating...
+Episode: 1	Length: 318	Total reward: 10.71
+average score: 10.709661131531128
+==============================================
+Step: 159290	Episode: 191	Length: 463	Total reward: 15.33	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.54	Movement: 0.48
+Step: 159577	Episode: 192	Length: 286	Total reward: 9.12	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.35	Movement: 0.29
+==============================================
+Evaluating...
+Episode: 1	Length: 307	Total reward: 10.30
+average score: 10.302144683287887
+==============================================
+Step: 159852	Episode: 193	Length: 274	Total reward: 8.57	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.33	Movement: 0.27
+Step: 160052	Episode: 194	Length: 199	Total reward: 5.79	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.23	Movement: 0.17
+==============================================
+Evaluating...
+Episode: 1	Length: 229	Total reward: 7.31
+average score: 7.309922265140135
+==============================================
+Step: 160249	Episode: 195	Length: 196	Total reward: 5.64	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.22	Movement: 0.16
+Step: 160491	Episode: 196	Length: 241	Total reward: 7.38	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.28	Movement: 0.22
+==============================================
+Evaluating...
+Episode: 1	Length: 182	Total reward: 5.61
+average score: 5.610602756306609
+==============================================
+Step: 160791	Episode: 197	Length: 299	Total reward: 9.26	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.35	Movement: 0.29
+Step: 161017	Episode: 198	Length: 225	Total reward: 6.79	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.26	Movement: 0.20
+==============================================
+Evaluating...
+Episode: 1	Length: 217	Total reward: 6.81
+average score: 6.813586294203839
+==============================================
+Step: 161227	Episode: 199	Length: 209	Total reward: 6.01	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.23	Movement: 0.18
+Step: 161441	Episode: 200	Length: 213	Total reward: 6.40	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.25	Movement: 0.19
+==============================================
+Evaluating...
+Episode: 1	Length: 269	Total reward: 8.79
+average score: 8.794053339106167
+==============================================
+Step: 161680	Episode: 201	Length: 238	Total reward: 6.96	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.26	Movement: 0.21
+Step: 161885	Episode: 202	Length: 204	Total reward: 5.74	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.22	Movement: 0.17
+==============================================
+Evaluating...
+Episode: 1	Length: 178	Total reward: 5.34
+average score: 5.339787391903539
+==============================================
+Step: 162067	Episode: 203	Length: 181	Total reward: 5.03	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.20	Movement: 0.14
+Step: 162289	Episode: 204	Length: 221	Total reward: 6.57	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.25	Movement: 0.19
+==============================================
+Evaluating...
+Episode: 1	Length: 235	Total reward: 7.39
+average score: 7.387817235542664
+==============================================
+Step: 162538	Episode: 205	Length: 248	Total reward: 7.55	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.29	Movement: 0.23
+Step: 162807	Episode: 206	Length: 268	Total reward: 8.19	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.31	Movement: 0.25
+==============================================
+Evaluating...
+Episode: 1	Length: 246	Total reward: 7.92
+average score: 7.924064223172517
+==============================================
+Step: 163173	Episode: 207	Length: 365	Total reward: 11.72	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.42	Movement: 0.36
+Step: 163608	Episode: 208	Length: 434	Total reward: 14.23	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.49	Movement: 0.43
+==============================================
+Evaluating...
+Episode: 1	Length: 324	Total reward: 10.84
+average score: 10.843868042267392
+==============================================
+Step: 163996	Episode: 209	Length: 387	Total reward: 12.79	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.44	Movement: 0.39
+Step: 164398	Episode: 210	Length: 401	Total reward: 13.39	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.47	Movement: 0.41
+==============================================
+Evaluating...
+Episode: 1	Length: 234	Total reward: 7.46
+average score: 7.460999301305982
+==============================================
+Step: 164814	Episode: 211	Length: 415	Total reward: 13.73	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.47	Movement: 0.41
+Step: 165594	Episode: 212	Length: 779	Total reward: 27.41	Num of Collision: 1	Lap: 1	Start progress: 0.06	End progress: 0.92	Movement: 0.86
+==============================================
+Evaluating...

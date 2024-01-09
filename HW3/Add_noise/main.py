@@ -13,12 +13,12 @@ if __name__ == '__main__':
         "batch_size": 256,
         "logdir": '/data/tzeshinchen/RF_Learning/HW3/Add_noise/log/Euduro_34193871/',
         "update_ppo_epoch": 3,
-        "learning_rate": 2.5e-5,
+        "learning_rate": 2.5e-4,
         "value_coefficient": 0.5,
-        "entropy_coefficient": 0,
+        "entropy_coefficient": 0.01,
         "horizon": 128,
         "env_id": 'ALE/Enduro-v5',
-        "eval_interval": 30,
+        "eval_interval": 100,
         "eval_episode": 3,
     }
     agent = AtariPPOAgent(config)

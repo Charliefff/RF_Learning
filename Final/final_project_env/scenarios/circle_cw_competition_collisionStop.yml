@@ -14,5 +14,5 @@ agents:
         terminate_on_collision: True, # <---
         collision_reward: 0.0,
         progress_reward: 1.0,
-        frame_reward: 0.0,
+        frame_reward: -0.000001,
       }

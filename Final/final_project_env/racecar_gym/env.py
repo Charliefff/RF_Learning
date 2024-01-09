@@ -35,12 +35,15 @@ class RaceEnv(gym.Env):
                             **kwargs)
         self.render_mode = render_mode
         # Assume actions only include: motor and steering
-        self.action_space = gym.spaces.box.Box(low=-1., high=1., shape=(2,), dtype=float32)
+        self.action_space = gym.spaces.box.Box(
+            low=-1., high=1., shape=(2,), dtype=float32)
         # Assume observation is the camera value
         # noinspection PyUnresolvedReferences
-        observation_spaces = {k: v for k, v in self.env.observation_space.items()}
+        observation_spaces = {k: v for k,
+                              v in self.env.observation_space.items()}
         assert self.camera_name in observation_spaces, f'One of the sensors must be {self.camera_name}. Check the scenario file.'
-        self.observation_space = gym.spaces.Box(low=0, high=255, shape=(3, 128, 128), dtype=np.uint8)
+        self.observation_space = gym.spaces.Box(
+            low=0, high=255, shape=(3, 128, 128), dtype=np.uint8)
         #
         self.cur_step = 0
 
@@ -49,8 +52,15 @@ class RaceEnv(gym.Env):
         return obs
 
     def reset(self, *args, **kwargs: dict):
+
+        # if kwargs.get('options'):
+        #     kwargs['options']['mode'] = 'random'
+        # else:
+        #     kwargs['options'] = {'mode': 'random'}
+
         self.cur_step = 0
         obs, *others = self.env.reset(*args, **kwargs)
+
         obs = self.observation_postprocess(obs)
         return obs, *others
 
@@ -61,9 +71,10 @@ class RaceEnv(gym.Env):
         # Add a small noise and clip the actions
         motor_scale = 0.001
         steering_scale = 0.01
-        motor_action = np.clip(motor_action + np.random.normal(scale=motor_scale), -1., 1.)
-        steering_action = np.clip(steering_action + np.random.normal(scale=steering_scale), -1., 1.)
-
+        motor_action = np.clip(
+            motor_action + np.random.normal(scale=motor_scale), -1., 1.)
+        steering_action = np.clip(
+            steering_action + np.random.normal(scale=steering_scale), -1., 1.)
 
         dict_actions = OrderedDict([(self.motor_name, array(motor_action, dtype=float32)),
                                     (self.steering_name, array(steering_action, dtype=float32))])

@@ -40,9 +40,11 @@ class MaximizeProgressTask(Task):
 
     def _check_collision(self, agent_state):
         safe_margin = 0.25
-        collision = agent_state['wall_collision'] or len(agent_state['opponent_collisions']) > 0
+        collision = agent_state['wall_collision'] or len(
+            agent_state['opponent_collisions']) > 0
         if 'observations' in agent_state and 'lidar' in agent_state['observations']:
-            n_min_rays = sum(np.where(agent_state['observations']['lidar'] <= safe_margin, 1, 0))
+            n_min_rays = sum(
+                np.where(agent_state['observations']['lidar'] <= safe_margin, 1, 0))
             return n_min_rays > self._n_min_rays_termination or collision
         return collision
 
@@ -82,7 +84,8 @@ class MaximizeProgressRegularizeAction(MaximizeProgressTask):
         reward = super().reward(agent_id, state, action)
         action = np.array(list(action.values()))
         if self._last_action is not None:
-            reward -= self._action_reg * np.linalg.norm(action - self._last_action)
+            reward -= self._action_reg * \
+                np.linalg.norm(action - self._last_action)
         self._last_action = action
         return reward
 
@@ -94,6 +97,8 @@ class RankDiscountedMaximizeProgressTask(MaximizeProgressTask):
                          progress_reward)
 
     def reward(self, agent_id, state, action) -> float:
+        # print("RankDiscountedMaximizeProgressTask")
+
         rank = state[agent_id]['rank']
         reward = super().reward(agent_id, state, action)
         reward = reward / float(rank)
@@ -116,6 +121,8 @@ class MaximizeProgressTask(Task):
         self._frame_reward = frame_reward
 
     def reward(self, agent_id, state, action) -> float:
+        # print("MaximizeProgressTask")
+
         agent_state = state[agent_id]
         progress = agent_state['lap'] + agent_state['progress']
         if self._last_stored_progress is None:
@@ -138,9 +145,11 @@ class MaximizeProgressTask(Task):
 
     def _check_collision(self, agent_state):
         safe_margin = 0.25
-        collision = agent_state['wall_collision'] or len(agent_state['opponent_collisions']) > 0
+        collision = agent_state['wall_collision'] or len(
+            agent_state['opponent_collisions']) > 0
         if 'observations' in agent_state and 'lidar' in agent_state['observations']:
-            n_min_rays = sum(np.where(agent_state['observations']['lidar'] <= safe_margin, 1, 0))
+            n_min_rays = sum(
+                np.where(agent_state['observations']['lidar'] <= safe_margin, 1, 0))
             return n_min_rays > self._n_min_rays_termination or collision
         return collision
 
@@ -170,19 +179,31 @@ class MaximizeProgressTaskCollisionInfluenceTimeLimit(Task):
         self.collision_penalty_time_reduce = collision_penalty_time_reduce
 
     def reward(self, agent_id, state, action) -> float:
+        # print("MaximizeProgressTaskCollisionInfluenceTimeLimit")
+
         agent_state = state[agent_id]
         progress = agent_state['lap'] + agent_state['progress']
         if self._last_stored_progress is None:
             self._last_stored_progress = progress
-        delta = abs(progress - self._last_stored_progress)
-        if delta > .5:  # the agent is crossing the starting line in the wrong direction
-            delta = (1 - progress) + self._last_stored_progress
+
         reward = self._frame_reward
+
+        delta = abs(progress - self._last_stored_progress)
+
+        # print(delta)
+        if delta > .5:  # the agent is crossing the starting line in the wrong direction
+            delta = 0.0025
+            # delta = (1 - progress) + self._last_stored_progress
+
+        # if crash
         if self._check_collision(agent_state):
             self.n_collision += 1
             reward += self._collision_reward
+
         reward += delta * self._progress_reward
+        # print(delta * self._progress_reward)
         self._last_stored_progress = progress
+
         return reward
 
     def done(self, agent_id, state) -> bool:
@@ -197,9 +218,11 @@ class MaximizeProgressTaskCollisionInfluenceTimeLimit(Task):
 
     def _check_collision(self, agent_state):
         safe_margin = 0.25
-        collision = agent_state['wall_collision'] or len(agent_state['opponent_collisions']) > 0
+        collision = agent_state['wall_collision'] or len(
+            agent_state['opponent_collisions']) > 0
         if 'observations' in agent_state and 'lidar' in agent_state['observations']:
-            n_min_rays = sum(np.where(agent_state['observations']['lidar'] <= safe_margin, 1, 0))
+            n_min_rays = sum(
+                np.where(agent_state['observations']['lidar'] <= safe_margin, 1, 0))
             return n_min_rays > self._n_min_rays_termination or collision
         return collision
 
